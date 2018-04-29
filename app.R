@@ -11,7 +11,7 @@ ui <- bootstrapPage(
   leafletOutput("map", width = "100%", height = "100%"),
   
   # slider panel
-  absolutePanel(
+  fixedPanel(
     id = 'controls',
     class = 'panel panel-default',
     fixed = T,
